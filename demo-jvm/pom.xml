@@ -1,0 +1,21 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>demo-parent</artifactId>
+        <groupId>com.keminapera</groupId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../demo-parent/pom.xml</relativePath>
+    </parent>
+
+    <groupId>com.kemimapera</groupId>
+    <artifactId>demo-jvm</artifactId>
+    <version>v1.0</version>
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+    </dependencies>
+</project>
