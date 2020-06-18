@@ -1,4 +1,4 @@
-package com.keminapera.mockito.user01;
+package com.keminapera.mockito.mock01;
 
 import com.keminapera.mockito.User;
 import org.junit.Test;

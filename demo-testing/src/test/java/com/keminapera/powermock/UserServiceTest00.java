@@ -1,8 +1,8 @@
 package com.keminapera.powermock;
 
 import com.keminapera.mockito.User;
-import com.keminapera.mockito.user01.UserDao01;
-import com.keminapera.mockito.user01.UserService01;
+import com.keminapera.mockito.mock01.UserDao01;
+import com.keminapera.mockito.mock01.UserService01;
 import org.junit.Test;
 import org.powermock.api.mockito.PowerMockito;
 

@@ -14,6 +14,9 @@ public class EmployeeDao {
     public void addEmployee(Employee employee) {
         throw new UnsupportedOperationException("数据库不可用");
     }
+    public void updateEmployee(Employee employee) {
+        throw new UnsupportedOperationException("数据库不可用");
+    }
     private void check(Employee employee) {
         throw new UnsupportedOperationException("检查失败");
     }
@@ -22,9 +25,6 @@ public class EmployeeDao {
         check(employee);
     }
 
-    public void updateEmployee(Employee employee) {
-        throw new UnsupportedOperationException("数据库不可用");
-    }
 
 
     public Employee selectById(String id) {
