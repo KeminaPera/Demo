@@ -1,13 +1,10 @@
 package com.keminapera.mockito;
 
-import org.springframework.stereotype.Service;
-
 /**
  * @author keminapera
  * @Description TODO
  * @Date 2020/5/24 下午3:33
  */
-@Service
 public class LoginService {
 
     private final AccountDao accountDao;

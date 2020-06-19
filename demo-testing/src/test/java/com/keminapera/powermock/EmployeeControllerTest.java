@@ -6,7 +6,7 @@ import org.junit.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
-import static org.junit.Assert.assertThat;
+import static org.hamcrest.MatcherAssert.assertThat;
 import static org.mockito.Mockito.when;
 
 public class EmployeeControllerTest {
@@ -30,7 +30,7 @@ public class EmployeeControllerTest {
 
     @Test
     public void getEmployee() {
-        when(employeeDao.getCount()).thenReturn(10);
+        when(employeeService.getEmployeeCount()).thenReturn(10);
         EmployeeController employeeController = new EmployeeController(employeeService);
 
         int employeeCount = employeeController.getEmployeeCount();
