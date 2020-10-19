@@ -4,6 +4,8 @@ import com.keminapera.springboot.pojo.User;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface UserMapper {
-    User selectById(Integer id);
+public class UserMapper {
+    User selectById(Integer id){
+        return null;
+    }
 }

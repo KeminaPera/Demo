@@ -1,3 +1,46 @@
+---
 management:
+  endpoints:
+    enabled-by-default: true
+---
+spring:
+  mian:
+    log-startup-info: false
+---
+my:
+  servers:
+    - dev.example.com
+    - another.example.com
+---
+acme:
+  enable: true
   security:
-    enabled: false
+    username: kemimapera
+    password: 123
+    role:
+      - redis
+      - mongodb
+---
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+---
+spring:
+  redis:
+    host: 192.168.0.109
+    port: 6379
+---
+my:
+  name: dev
+  servers:
+    -
+      user-name: zhangsansan
+      url: http://zhangsansan.com
+    -
+      user-name: lisi
+      url: http://lisi.com
+---
+server:
+  port: 9090

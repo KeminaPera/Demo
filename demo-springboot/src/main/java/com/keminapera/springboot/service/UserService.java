@@ -11,6 +11,6 @@ public class UserService {
         this.userDao = userDao;
     }
     public User selectById(Integer id) {
-        return userDao.selectById(id);
+        return null;/*userDao.selectById(id);*/
     }
 }
